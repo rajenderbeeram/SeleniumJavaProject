@@ -19,7 +19,7 @@ try {
          String expectedText = "Login";
          
         // Print the title
-        System.out.println("Page title is: " + driver.getTitle());
+        System.out.println("Page title is : " + driver.getTitle());
         if(actualText.equals(expectedText)) {
         	System.out.println("Login present not");
         	
