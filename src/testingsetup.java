@@ -21,7 +21,7 @@ try {
         // Print the title
         System.out.println("Page title is: " + driver.getTitle());
         if(actualText.equals(expectedText)) {
-        	System.out.println("Login present");
+        	System.out.println("Login present not");
         	
         }
         else {
