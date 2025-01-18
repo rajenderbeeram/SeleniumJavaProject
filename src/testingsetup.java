@@ -16,7 +16,7 @@ try {
         driver.get("https://www.flipkart.com/");
          WebElement s1= driver.findElement(By.xpath("//A[@title='Login']"));
          String actualText = s1.getText();
-         String expectedText = "Login";
+         String expectedText = "Login test";
          
         // Print the title
         System.out.println("Page title is : " + driver.getTitle());
